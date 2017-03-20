@@ -1,146 +1,108 @@
-/*Micellanous*/
+/* Everything */
 
 body {
 
-	margin: 0;
+	font-family:'Dosis', sans-serif;
+	background-color: grey;
+}
+
+article {
+
+	max-width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+
 }
 
 
-/*header*/
+
+/* Header*/
 
 header {
 
-	background-image: url('images/drawn_alien_heads.png');
-	height: 10em;
-	
+	height: 150px; 
+	margin: auto;
 	text-align: center;
-	padding-top: 2em;
-	font-family:'Dosis', sans-serif;
+	background-image: url('images/drawn_alien_heads.png');
 
 }
 
+header h1 {
 
-h1 a {
+	color: white;
+	padding-top: 20px;
+	font-size: 2.5em;
+}
 
-	text-decoration: none;
+header h2 {
+
 	color: green;
-	font-size: 2em;
+	font-size: 1.8em;
 
 }
 
-h3 {
-
-	color: white;
-}
-
-
-/*navigation bar*/
-
-nav ul {
-
-	list-style-type: none;
-    margin: 0;
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    overflow: hidden;
-  
-    /* FIXING THE BAR TO THE TOP OF THE PAGE
-    position: fixed;
-    top: 0;
-    width: 100%;
-    */
-
-}
-
-.active {
-
-	background-color: black;
-}
-
-nav li {
-
-	display: inline;
-	font-size: 1.2em;
-	padding-right: 1em;
-	padding-left: 1em;
-
-}
-
-nav a {
-
-	text-decoration: none;
-    color: green;
-}
-
-nav li a:hover {
-
-	color: white;
-}
-
-
-/*Content*/
-
-.content {
-
-	height: 30em;
-}
-
-
-
-/*footer*/
+/* footer */
 
 footer {
 
-	height: 10em;
-	background-color: black;
-	color: white;
-	padding-top: 2em;
-
-}
-
-.footer-text {
-
-	margin-right: 2em;
-	margin-left: 2em;
-}
-
-footer ul {
-
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	float: left;
-
-}
-
-footer img {
-
-	float: right;
-	height: 2em;
+	background-color: #2A2B2D;
+	height: 200px;
+	margin: auto;
 }
 
 footer li {
 
 	display: inline;
-	font-size: 1.2em;
+	padding: 0 10px 0 0;
+}
+
+
+.linkbar a {
+
+	text-decoration: none;
+	color: #767a7a;
+	font-size: 20px;
+
+}
+
+footer #green a {
+
+	text-decoration: none;
+	color: green;
+	font-size: 20px;
+}
+
+
+footer a:hover {
+
+	text-decoration: none;
+	color: white;
+}
+
+footer #green a:hover {
+
+	text-decoration: none;
+	color: white;
+}
+
+
+.footer-text {
+
+	color: #545C5C;
+	text-align: center;
+
+}
+
+footer ul {
+
+	padding-top: 15px;
+	text-align: center;
 
 }
 
 footer p {
 
-	float: left;
-}
-
-footer li a {
-
-	text-decoration: none;
-	color: green;
-	padding: 1em;
-}
-
-footer li a:hover {
-
-	color: white;
+	padding-left: 40px;
+	margin-bottom: 0;
 }
 
