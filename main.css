@@ -6,6 +6,16 @@ body {
 	background-color: grey;
 }
 
+article {
+
+	max-width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+
+}
+
+
+
 /* Header*/
 
 header {
