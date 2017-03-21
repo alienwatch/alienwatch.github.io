@@ -6,6 +6,21 @@ body {
 	background-color: grey;
 }
 
+article {
+
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: #C0C0C0;
+
+}
+
+a {
+
+	color: green;
+
+}
+
 /* Header*/
 
 header {
@@ -97,3 +112,27 @@ footer p {
 }
 
 /* Content */
+
+article img {
+
+	max-width: 100%;
+    height: auto;
+}
+
+.container {
+
+	background-color: #C0C0C0;
+	padding-top: 20px;
+
+}
+
+.container h1 {
+
+	text-align: center;
+}
+
+.container img {
+
+	max-width: 100%;
+}
+
