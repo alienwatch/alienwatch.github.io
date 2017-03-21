@@ -51,7 +51,7 @@ header h2 {
 footer {
 
 	background-color: #2A2B2D;
-	height: 200px;
+	height: auto;
 	margin: auto;
 }
 
