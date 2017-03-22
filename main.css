@@ -154,12 +154,15 @@ h3 {
 	margin-bottom: 10px;
 }
 
+.after-picture {
+
+	padding-top: 10px;
+}
+
 /*table*/
 
 table img {
 
-	height: 13em;
-	width: 13em;
 }
 
 td {
