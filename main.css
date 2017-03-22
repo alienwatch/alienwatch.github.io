@@ -149,6 +149,19 @@ h3 {
 	padding-top: 10px;
 }
 
+/*table*/
+
+table img {
+
+	height: 250px;
+	width: 250px;
+}
+
+td {
+
+	text-align: center;
+}
+
 /*
 
 .table-contact-us {
