@@ -138,6 +138,17 @@ article img {
 	padding: 0.5em;
 }
 
+h2 a:hover {
+
+	text-decoration: none;
+	color: white;
+}
+
+h3 {
+
+	padding-top: 10px;
+}
+
 /*
 
 .table-contact-us {
