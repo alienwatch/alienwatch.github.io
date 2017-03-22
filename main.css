@@ -135,7 +135,7 @@ article img {
 .container img {
 
 	max-width: 100%;
-	padding: 0.5em;
+
 }
 
 h2 a:hover {
@@ -149,12 +149,17 @@ h3 {
 	padding-top: 10px;
 }
 
+.report-a-sighting-h1 {
+
+	margin-bottom: 10px;
+}
+
 /*table*/
 
 table img {
 
-	height: 250px;
-	width: 250px;
+	height: 13em;
+	width: 13em;
 }
 
 td {
@@ -162,6 +167,11 @@ td {
 	text-align: center;
 }
 
+.table-contact {
+
+	overflow: scroll;
+	min-width: 500px;
+}
 /*
 
 .table-contact-us {
